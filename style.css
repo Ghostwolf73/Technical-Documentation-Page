@@ -1,0 +1,56 @@
+*{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    margin: 0;
+}
+#main-doc{
+    margin-left:25%;
+    padding:1px 16px;
+    height:1000px;
+    color: black;
+    background-color: white;
+}
+
+
+#navbar {
+    position: fixed;
+    height: 100%;
+    min-width: 300px;
+    width: 300px;
+    margin-top: 0%;
+
+    top: -70px;
+    left: 0px;
+
+    color: white;
+    background-color: rgb(95, 67, 121);
+    padding: 75px 0px;
+
+}
+
+#nav_list {
+    list-style-type: none;
+    
+    
+}
+
+#nav_li{
+    display: block;
+    padding: 8px 16px;
+    margin-bottom: 25px;
+    border-style: none;
+    border-color: #000;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+      background-color: lightblue;
+    }
+  }
